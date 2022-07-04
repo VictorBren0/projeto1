@@ -1,2 +1,33 @@
-Olá meu nome é Victor Breno
-Nova linha
+git init
+Este comando é usado para criar um novo repositório GIT.
+
+git add .
+O comando git add pode ser usado para adicionar arquivos.
+
+git commit ""
+O comando git commit é usado para confirmar as alterações
+
+git status
+O comando git status exibe a lista de arquivos alterados juntamente com os arquivos que ainda não foram adicionados ou confirmados
+
+git checkout
+O comando git checkout pode ser usado para criar ramos ou alternar entre eles.
+
+git branch
+O comando git branch pode ser usado para listar, criar ou excluir ramos.
+Para excluir um ramo:
+git branch –d <branch-name>
+
+git pull
+Para mesclar todas as alterações presentes no repositório remoto para o diretório de trabalho local.
+
+git reset
+Para redefinir o índice e o diretório de trabalho para o estado do último commit, o comando git reset é usado. Uso:
+
+git reset --hard versao
+
+git reflog
+ver as versões
+
+git push
+Manda pro github
